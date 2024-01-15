@@ -2,7 +2,7 @@
 title: Scattering Amplitudes
 author: Wang
 date: 2024-01-14
-category: Jekyll
+category: Review
 layout: post
 ---
 

@@ -10,7 +10,7 @@ layout: post
 
 Mcgreevy写过巨好的拓扑物理讲义：
 https://mcgreevy.physics.ucsd.edu/w21
-
+（Mcgreevy 写过很多很棒的讲义）
 如果喜欢高能人的讲法可以看Witten 2015，不过有点干：
 Three Lectures On Topological Phases Of Matter
 https://arxiv.org/pdf/1510.07698.pdf
@@ -31,6 +31,6 @@ https://www.koushare.com/video/videodetail/18480
 https://zhuanlan.zhihu.com/p/137547905
 
 
-##### String-net condensed
+##### String-net condensate
 文小刚《量子多体物理》
 

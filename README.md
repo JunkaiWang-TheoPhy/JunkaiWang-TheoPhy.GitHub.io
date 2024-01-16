@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Jekyll Gitbook Theme
+title: Junkai Wang-Student of Theoretical Physics
 permalink: /
 ---
 
-Make Jelly site have a GitBook look!:-D
+Welcome to my playground!:-D
 
 ## Demo
 

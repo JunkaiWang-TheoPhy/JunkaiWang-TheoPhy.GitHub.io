@@ -1,0 +1,150 @@
+
+From Wikipedia
+
+渐近安全引力理论是理论物理中一种尝试量子化引力的方法，旨在克服传统引力量子化过程中遇到的困难。在经典物理中，引力由爱因斯坦的广义相对论描述，但当试图将其量子化时，会出现非重正化的问题，也就是说，在高能尺度下，理论中的无限项无法被消除。
+
+**渐近安全性（Asymptotic Safety）**概念最初由史蒂文·温伯格（Steven Weinberg）在20世纪70年代提出。其核心思想是，即使一个理论在传统意义上是非重正化的，如果在高能量尺度下，其重正化群流（Renormalization Group Flow）趋于某个非平凡的固定点（非零的有限值），那么这个理论依然是可预测的。这个固定点确保了高能量行为受到控制，物理量不会发散。
+
+在引力的背景下，渐近安全性意味着引力耦合常数在高能量极限下趋于一个非平凡的固定点。这允许我们建立一个自洽的量子引力理论，而不需要引入额外的维度或新粒子。这样，物理学家可以在现有理论框架下，解决量子力学与广义相对论之间的不兼容性。
+
+近年来，利用功能重正化群方程（Functional Renormalization Group Equations）等数学工具，物理学家对渐近安全引力理论进行了深入研究。虽然目前还没有确凿的实验证据，但这一理论为理解引力的量子性质提供了有希望的途径。
+
+
+
+-----
+
+
+### **引言**
+
+在量子场论中，重正化是处理紫外发散的重要工具。然而，传统的引力量子化尝试（如直接对广义相对论进行量子化）会导致不可重正化的发散。为了解决这一问题，渐近安全（Asymptotic Safety）方案被提出，旨在通过找到引力的非平凡紫外固定点，使理论在高能尺度下仍然是完备且可预测的。
+
+### **重正化群与固定点**
+
+**重正化群（RG）**分析研究了物理系统在不同能标下的行为。通过研究耦合常数随能标变化的**β函数**，我们可以了解理论在高能（紫外）和低能（红外）极限下的性质。固定点是β函数为零的点，表示耦合常数在该能标下不再变化。
+
+- **紫外固定点（UV Fixed Point）**：当能标趋于无穷大时的固定点。
+- **红外固定点（IR Fixed Point）**：当能标趋于零时的固定点。
+
+在渐近自由（Asymptotic Freedom）的理论中，如量子色动力学（QCD），耦合常数在紫外极限下趋于零。而在渐近安全理论中，耦合常数在紫外极限下趋于有限的非零值。
+
+### **渐近安全性的数学框架**
+
+渐近安全性要求存在一个有限维度的临界流形（critical surface），使得理论的高能行为由有限数量的参数决定。具体而言，我们考虑引力作用量的泛函空间，研究其在重正化群流下的行为。
+
+**功能重正化群方程（FRGE）**是研究非微扰重正化群流的主要工具。它的形式为：
+
+$$
+\partial_k \Gamma_k = \frac{1}{2} \text{Tr} \left[ \left( \Gamma_k^{(2)} + R_k \right)^{-1} \partial_k R_k \right]
+$$
+
+- $\Gamma_k$：有效平均作用量，依赖于运行能标$k$。
+- $\Gamma_k^{(2)}$：$\Gamma_k$对场的二阶泛函导数。
+- $R_k$：红外截断函数，抑制低于$k$的动量模式。
+
+通过求解FRGE，我们可以得到引力耦合常数和其它参数随能标的流动方程。
+
+### **应用于引力的具体模型**
+
+考虑广义的引力作用量，包括高阶曲率项：
+
+$$
+\Gamma_k = \int d^4 x \sqrt{-g} \left[ \frac{1}{16\pi G_k} \left( -R + 2\Lambda_k \right) + \frac{1}{2} \alpha_k R^2 + \frac{1}{2} \beta_k R_{\mu\nu} R^{\mu\nu} + \cdots \right]
+$$
+
+- $G_k$：运行的牛顿常数。
+- $\Lambda_k$：运行的宇宙学常数。
+- $\alpha_k$、$\beta_k$：高阶曲率耦合常数。
+
+通过对这些耦合常数的β函数进行分析，我们寻找非平凡的紫外固定点，使得：
+
+$$
+\lim_{k \to \infty} G_k = G_* \quad , \quad \lim_{k \to \infty} \Lambda_k = \Lambda_* \quad , \quad \lim_{k \to \infty} \alpha_k = \alpha_* \quad , \quad \lim_{k \to \infty} \beta_k = \beta_*
+$$
+
+其中$G_*$、$\Lambda_*$等为固定点处的有限值。
+
+### **主要结果和证据**
+
+多项研究采用不同的近似方法，如：
+
+- **局部多项式近似（LPA）**：只考虑有限阶的作用量项。
+- **指数函数空间近似**：考虑无限多的作用量项，但对其进行截断或近似处理。
+
+这些方法均发现了引力理论存在非平凡的紫外固定点的证据。例如，对于纯引力系统，发现了四维时空下的固定点，且对应的临界流形是有限维的。
+
+### **物理意义**
+
+- **可预测性**：存在固定点意味着高能物理可由有限数量的参数描述，提高了理论的可预测性。
+- **避免紫外发散**：引力的高能行为受到控制，避免了传统量子引力中的紫外发散问题。
+- **与实验的联系**：虽然目前无法直接实验验证，但渐近安全性可能对黑洞物理、早期宇宙学等领域产生可观测的影响。
+
+### **挑战与未来方向**
+
+- **高阶近似的可靠性**：不同近似方法得到的固定点性质可能不同，需要更精确的计算。
+- **物质场的引入**：考虑费米子、标量场等物质场对引力渐近安全性的影响。
+- **实验检验**：寻找可能的实验或观测手段来验证渐近安全引力的预测。
+
+### **结论**
+
+渐近安全引力为解决引力的量子化问题提供了一个有前景的途径。通过引入非平凡的紫外固定点，理论在高能尺度下仍然是有限且可预测的。然而，要使其成为完整的量子引力理论，还需要克服许多技术和概念上的挑战。
+
+
+
+----
+
+### **参考文献**
+
+1. **Steven Weinberg (1979)**：
+   - *"Ultraviolet Divergences in Quantum Theories of Gravitation"*
+   - 出自：《通往统一理论的相互作用》（*General Relativity: An Einstein Centenary Survey*），S. W. Hawking 和 W. Israel 编辑，剑桥大学出版社。
+   - 说明：Weinberg 在此论文中首次提出了引力的渐近安全性概念。
+
+2. **M. Reuter (1998)**：
+   - *"Nonperturbative Evolution Equation for Quantum Gravity"*
+   - 期刊：Physical Review D, **57**(2), 971–985.
+   - 说明：Reuter 开创性地将功能重正化群方法应用于量子引力，开启了非微扰渐近安全性的研究。
+
+3. **D. F. Litim (2004)**：
+   - *"Fixed Points of Quantum Gravity"*
+   - 期刊：Physical Review Letters, **92**(20), 201301.
+   - 说明：利用优化的重正化群方法，提供了关于引力紫外固定点的精确结果。
+
+4. **M. Niedermaier and M. Reuter (2006)**：
+   - *"The Asymptotic Safety Scenario in Quantum Gravity"*
+   - 期刊：Living Reviews in Relativity, **9**(1), 5.
+   - 说明：全面综述了引力渐近安全性的理论基础和主要进展。
+
+5. **R. Percacci (2007)**：
+   - *"Asymptotic Safety"*
+   - 收录于：《量子引力的方法》（*Approaches to Quantum Gravity*），D. Oriti 编辑，剑桥大学出版社。
+   - 说明：讨论了渐近安全性的基本概念及其在引力量子化中的应用。
+
+6. **A. Codello, R. Percacci, C. Rahmede (2009)**：
+   - *"Investigating the Ultraviolet Properties of Gravity with a Wilsonian Renormalization Group Equation"*
+   - 期刊：Annals of Physics, **324**(2), 414–469.
+   - 说明：详细研究了高阶曲率项对引力紫外行为的影响。
+
+7. **M. Reuter and F. Saueressig (2012)**：
+   - *"Quantum Einstein Gravity"*
+   - 收录于：《量子引力中的重正化群》（*Renormalization Group and Effective Field Theory Approaches to Many-Body Systems*），A. Schwenk 和 J. Polonyi 编辑，施普林格出版社。
+   - 说明：探讨了量子爱因斯坦引力和功能重正化群方法。
+
+8. **R. Percacci and D. Perini (2003)**：
+   - *"Asymptotic Safety of Gravity Coupled to Matter"*
+   - 期刊：Physical Review D, **68**(4), 044018.
+   - 说明：研究了物质场对引力渐近安全性的影响。
+
+9. **M. Reuter and F. Saueressig (2019)**：
+   - *"Quantum Gravity and the Functional Renormalization Group: The Road towards Asymptotic Safety"*
+   - 出版社：剑桥大学出版社。
+   - 说明：这本专著系统介绍了渐近安全引力的理论框架和研究进展。
+
+10. **A. Eichhorn (2018)**：
+    - *"An Asymptotically Safe Guide to Quantum Gravity and Matter"*
+    - 期刊：Frontiers in Astronomy and Space Sciences, **5**, 47.
+    - 说明：综述了引力与物质场相互作用的渐近安全性研究。
+
+
+
+
+>  In your opinion, what's the difference  between "UV complete" and "renornalizble"? what's their relation and their effect when quantizing the gravity theory?

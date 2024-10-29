@@ -1,0 +1,8 @@
+# My Page
+
+Here is some text before the Gist.
+
+<!-- Paste the embed code here -->
+<script src="https://gist.github.com/JunkaiWang-TheoPhy/c03cbc8f3fff352bebdf961fd2506337.js"></script>
+
+And here is some text after the Gist.
